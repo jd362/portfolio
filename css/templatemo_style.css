@@ -979,3 +979,32 @@ span[class*="border-"] {
 .pink-button:hover {
     color: #fff;
 }
+
+.about-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; /* or any color you prefer */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust as necessary */
+}
+
+.profile-image img {
+    width: 150px; /* Adjust as necessary */
+    border-radius: 50%; /* Makes the image round */
+    border: 5px solid yellow; /* Adjust color as necessary */
+    padding: 5px; /* Adjust as necessary */
+}
+
+.about-text {
+    text-align: left;
+    max-width: 600px; /* Adjust as necessary */
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
