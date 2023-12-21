@@ -980,31 +980,63 @@ span[class*="border-"] {
     color: #fff;
 }
 
-.about-container {
-    text-align: center;
-    padding: 50px;
-    background-color: #f4f4f4; /* or any color you prefer */
-}
-
-.about-content {
+.about-me {
     display: flex;
-    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
     justify-content: center;
-    gap: 20px; /* Adjust as necessary */
-}
-
-.profile-image img {
-    width: 150px; /* Adjust as necessary */
-    border-radius: 50%; /* Makes the image round */
-    border: 5px solid yellow; /* Adjust color as necessary */
-    padding: 5px; /* Adjust as necessary */
-}
-
-.about-text {
     text-align: left;
-    max-width: 600px; /* Adjust as necessary */
+    color: #fff; /* For white text */
+    padding: 50px 0;
+    max-width: 1200px; /* Or your preferred width */
+    margin: 0 auto; /* This will center your .about-me in the middle of the page */
 }
 
-.about-text p {
-    margin-bottom: 20px;
+.about-me h1 {
+    font-size: 3em; /* Large size for the 'Hello!' text */
+    color: #fff; /* Or any color you prefer */
+    margin-bottom: 20px; /* Space after the 'Hello!' text */
+}
+
+.about-me p {
+    font-size: 1.2em; /* Size of the paragraph text */
+    margin-bottom: 15px; /* Space between paragraphs */
+    color: #fff;
+    max-width: 1200px; /* To ensure lines do not get too long */
+    line-height: 1.6; /* Adjusts the space between lines of text */
+}
+
+
+.project-details {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    text-align: left;
+    color: #fff; /* For white text */
+    padding: 0px 60px;
+    max-width: 1200px; /* Or your preferred width */
+    margin: 0 auto; /* This will center your .about-me in the middle of the page */
+}
+
+
+
+.project-details p{
+    font-size: 1.2em; /* Size of the paragraph text */
+    margin-bottom: 10px; /* Space between paragraphs */
+    color: #fff;
+    max-width: 2000px; /* To ensure lines do not get too long */
+    line-height: 1.6; /* Adjusts the space between lines of text */
+}
+
+
+.back_to_main {
+    padding: 0px 400px;
+    font-size: 0.8em
+}
+
+
+/* If you have a specific font-family you want to use, set it here. Example: */
+body {
+    font-family: 'Open Sans', sans-serif; /* This is just an example; use your preferred font */
 }
