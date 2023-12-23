@@ -1013,6 +1013,7 @@ span[class*="border-"] {
     align-items: flex-start; /* Align items to the left */
     justify-content: center;
     text-align: left;
+    font-size: 1.2em;
     color: #fff; /* For white text */
     padding: 0px 60px;
     max-width: 1200px; /* Or your preferred width */
@@ -1030,9 +1031,20 @@ span[class*="border-"] {
 }
 
 
-.back_to_main {
+.back_to_main a{
+    color: #ADD8E6;
     padding: 0px 400px;
     font-size: 0.8em
+}
+
+.code_example a{
+    color: #ADD8E6;
+    padding: 0px 400px;
+    font-size: 2.0em
+}
+.code_example p{
+    padding: 0px 400px;
+    font-size: 1.2em
 }
 
 
