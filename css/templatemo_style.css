@@ -1030,20 +1030,39 @@ span[class*="border-"] {
     line-height: 1.6; /* Adjusts the space between lines of text */
 }
 
+.back_to_main{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0px 60px;
+    max-width: 1200px; /* Or your preferred width */
+    margin: 0 auto; /* This will center your .about-me in the middle of the page */
+}
 
 .back_to_main a{
     color: #ADD8E6;
-    padding: 0px 400px;
     font-size: 0.8em
 }
 
+.code_example {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0px 60px;
+    max-width: 1200px; /* Or your preferred width */
+    margin: 0 auto; /* This will center your .about-me in the middle of the page */
+}
 .code_example a{
     color: #ADD8E6;
-    padding: 0px 400px;
     font-size: 2.0em
 }
 .code_example p{
-    padding: 0px 400px;
     font-size: 1.2em
 }
 
